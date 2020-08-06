@@ -3,7 +3,6 @@
   "npmClient": "yarn",
   "packages": [
     "packages/*",
-    "hello",
-    "boilerplate-react-avancado"
+    "hello"
   ]
 }
