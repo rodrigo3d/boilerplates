@@ -3,6 +3,7 @@
   "npmClient": "yarn",
   "packages": [
     "packages/*",
-    "hello"
+    "hello",
+    "hello2"
   ]
 }
