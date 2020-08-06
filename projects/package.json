@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
+    "build-storybook": "build-storybook -s ./public",
+    "push": "git add . && git commit -m \"[Atualização Automática]\" && git push -u origin master"
   },
   "husky": {
     "hooks": {
