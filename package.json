@@ -14,8 +14,7 @@
     "hello:build": "concurrently \"cd hello/ && yarn build\" ",
     "hello:start": "concurrently \"cd hello/ && yarn start\" ",
     "hello:deploy": "concurrently \"cd hello/ && yarn deploy\" ",
-    "projects:dev": "concurrently \"cd projects/ && yarn dev\" ",
-    "hello2:dev": "concurrently \"cd hello2/ && yarn dev\" "
+    "projects:dev": "concurrently \"cd projects/ && yarn dev\" "
   },
   "devDependencies": {
     "lerna": "^3.22.1"

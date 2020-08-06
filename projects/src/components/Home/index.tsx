@@ -1,7 +1,7 @@
 import * as S from './styles'
 
-const Main = ({
-  title = 'Hello2 - React Avançado',
+const Home = ({
+  title = 'React Avançado',
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
@@ -18,4 +18,4 @@ const Main = ({
   </S.Wrapper>
 )
 
-export default Main
+export default Home

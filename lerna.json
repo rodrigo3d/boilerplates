@@ -4,6 +4,6 @@
   "packages": [
     "packages/*",
     "hello",
-    "hello2"
+    "projects"
   ]
 }
