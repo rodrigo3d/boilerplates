@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 const Main = ({
-  title = 'Hello 0000- React Avançado',
+  title = 'React Avançado',
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
