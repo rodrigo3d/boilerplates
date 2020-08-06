@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start1": "npm start --prefix apps/api && npm start --prefix apps/frontend",
+    "dev": "gulp",
+    "bootstrap": "lerna bootstrap",
+    "push": "git add . && git commit -m \"[Atualização Automática]\" && git push -u origin master",
+    "start": "concurrently \"cd eu && gulp\"  \"cd apps/api && npm start\"  \"cd apps/frontend && npm start \" ",
+    "new": "concurrently \"cd packages/my-app && yarn dev\" ",
+    "login": "concurrently \"cd login && gulp\" ",
+    "lerna": "lerna",
+    "hello:dev": "concurrently \"cd hello/ && yarn dev\" ",
+    "hello:build": "concurrently \"cd hello/ && yarn build\" ",
+    "hello:start": "concurrently \"cd hello/ && yarn start\" ",
+    "hello:deploy": "concurrently \"cd hello/ && yarn deploy\" ",
+    "projects:dev": "concurrently \"cd projects/ && yarn dev\" "
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
