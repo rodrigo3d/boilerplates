@@ -1,5 +1,7 @@
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0caea29f-0885-466b-ba9d-1c67ef0fce90/deploy-status)](https://app.netlify.com/sites/rodrigo3d/deploys)
+
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
 
 ## What is inside?
